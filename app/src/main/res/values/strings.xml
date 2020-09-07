@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Billy3</string>
+    <string name="skip">Skip  </string>
+    <string name="image_view">image view</string>
+    <string name="website_name">www.gebeyapps.com</string>
+    <string name="image_for_on_boarding_screen">image for on boarding screen</string>
+    <string name="logo">logo</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="no_account_yet">No account yet?</string>
+    <string name="create_one">Create one</string>
+    <string name="hello_there_welcome_back">HELLO THERE WELCOME BACK</string>
+    <string name="welcome">Welcome</string>
+    <string name="full_name">Full Name</string>
+    <string name="o">+251</string>
+    <string name="postal_code">+251</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="user_account_type">User Account Type</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+
+<!--        <item name="colorControlNormal">@color/fade</item>-->
+<!--        <item name="colorControlActivated">@color/colorTextPrimary</item>-->
+<!--        <item name="colorControlHighlight">@color/colorTextPrimary</item>-->
+<!--        <item name="android:textColorHint">@color/fade</item>-->
+<!--        <item name="android:colorButtonNormal">@color/colorPrimaryDark</item>-->
+    </style>
+
+ <style name="OnBoardingScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">#ffffff</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
