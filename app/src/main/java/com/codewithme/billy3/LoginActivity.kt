@@ -3,10 +3,8 @@ package com.codewithme.billy3
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import com.blogspot.atifsoftwares.animatoolib.Animatoo
 import kotlinx.android.synthetic.main.activity_login.*
-import kotlinx.android.synthetic.main.activity_sign_up.view.*
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         link_forgot_password.setOnClickListener {
-            startActivity(Intent(this, ForgotPasswodActivity::class.java))
+            startActivity(Intent(this, ForgotPasswordActivity::class.java))
             Animatoo.animateZoom(this)
 
         }

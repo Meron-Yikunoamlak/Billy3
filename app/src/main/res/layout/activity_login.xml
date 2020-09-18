@@ -32,7 +32,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/bungee"
-            android:gravity="end"
+            android:layout_gravity="end"
+            android:textAlignment="textEnd"
             android:text="@string/hello_there_welcome_back"
             android:textColor="@color/colorTextPrimary"
             android:textSize="30sp" />
@@ -42,7 +43,11 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            app:startIconTint="@color/fade"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/colorTextPrimary">
 
             <EditText
                 android:id="@+id/input_username_in_sign_in"
@@ -60,7 +65,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            app:endIconMode="password_toggle">
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/colorTextPrimary"
+            app:startIconDrawable="@drawable/ic_baseline_lock_24"
+            app:startIconTint="@color/fade">
 
             <EditText
                 android:id="@+id/input_password_in_sign_in"
@@ -69,7 +77,6 @@
                 android:autofillHints="yes"
                 android:hint="@string/password"
                 android:inputType="textPassword"
-                app:endIconMode="password_toggle"
                 android:backgroundTint="@color/white"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -89,7 +96,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="8dp"
             android:backgroundTint="@color/colorPrimaryDark"
             android:padding="12dp"
             android:text="@string/login" />

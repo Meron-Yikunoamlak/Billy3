@@ -42,7 +42,11 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp">
+            android:layout_marginBottom="8dp"
+            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            app:startIconTint="@color/fade"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/colorTextPrimary">
 
             <EditText
                 android:id="@+id/input_full_name_in_sign_up"
@@ -51,7 +55,8 @@
                 android:autofillHints="yes"
                 android:background="@color/white"
                 android:hint="@string/full_name"
-                android:inputType="text" />
+                android:inputType="text"
+                />
         </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -63,10 +68,12 @@
 
             <com.google.android.material.textfield.TextInputLayout
 
-                android:layout_width="70dp"
+                android:layout_width="105dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp">
+                android:layout_marginBottom="8dp"
+                app:startIconDrawable="@drawable/ic_baseline_phone_24"
+                app:startIconTint="@color/fade">
 
                 <EditText
                     android:id="@+id/postal_code_in_sign_up"
@@ -88,7 +95,10 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginStart="16dp"
-                app:prefixText="9 ">
+                app:prefixText="9 "
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorTextPrimary"
+            >
 
                 <EditText
                     android:id="@+id/input_mobile_number_in_sign_up"
@@ -108,7 +118,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
+            android:layout_marginBottom="8dp"
+            app:startIconDrawable="@drawable/ic_baseline_email_24"
+            app:startIconTint="@color/fade"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/colorTextPrimary">
 
             <EditText
                 android:id="@+id/input_email_in_sign_up"
@@ -129,7 +143,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            app:endIconMode="password_toggle">
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/colorTextPrimary"
+            app:startIconDrawable="@drawable/ic_baseline_lock_24"
+            app:startIconTint="@color/fade">
 
             <EditText
                 android:id="@+id/input_password_in_sign_up"
@@ -149,7 +166,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            app:endIconMode="password_toggle">
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/colorTextPrimary"
+            app:startIconDrawable="@drawable/ic_baseline_lock_24"
+            app:startIconTint="@color/fade">
 
             <EditText
                 android:id="@+id/input_confirm_password_in_sign_up"
@@ -161,6 +181,10 @@
                 android:autofillHints="yes"
                 android:background="@color/white"/>
         </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -189,6 +213,7 @@
 
 
         </LinearLayout>
+
 
     </LinearLayout>
 </ScrollView>

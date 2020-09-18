@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignUpActivity2"></activity>
-        <activity android:name=".ForgotPasswodActivity" />
+        <activity android:name=".SuccessPasswordResetActivity"></activity>
+        <activity android:name=".PasswordResetActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".VerificationCodeActivity" />
+        <activity android:name=".MakeSelectionActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>

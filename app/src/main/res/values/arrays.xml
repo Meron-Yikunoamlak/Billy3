@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accountTypes">
+        <item>Business Owner</item>
+        <item>Customer</item>
+    </string-array>
+
+
+</resources>

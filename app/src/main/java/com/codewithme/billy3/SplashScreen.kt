@@ -13,6 +13,7 @@ import androidx.core.graphics.alpha
 import androidx.core.view.ViewCompat
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_splash_screen.*
+import kotlinx.android.synthetic.main.activity_splash_screen.txt_website_name as txt_website_name1
 
 class SplashScreen : AppCompatActivity() {
 
@@ -31,6 +32,8 @@ class SplashScreen : AppCompatActivity() {
 
 
         img_logo.alpha = 0f
+        this.txt_website_name1.alpha = 0f
+
         img_logo.animate().setDuration(3000).alpha(1f).withEndAction{
             val i = Intent(this,OnBoardingActivity::class.java)
 
@@ -40,6 +43,13 @@ class SplashScreen : AppCompatActivity() {
 
         }
 
+        txt_website_name1.animate().setDuration(3000).alpha(1f).withEndAction{
+            val i = Intent(this,OnBoardingActivity::class.java)
 
+            startActivity(i)
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
+            finish()
+
+        }
     }
 }

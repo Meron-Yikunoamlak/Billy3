@@ -3,6 +3,7 @@ package com.codewithme.billy3
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.activity.OnBackPressedCallback
 import com.blogspot.atifsoftwares.animatoolib.Animatoo
 import kotlinx.android.synthetic.main.activity_login.*
@@ -25,11 +26,12 @@ class SignUpActivity : AppCompatActivity() {
             Animatoo.animateFade(this)
         }
 
-        btn_next_in_sign_up.setOnClickListener {
-            startActivity(Intent(this, SignUpActivity2::class.java))
-            Animatoo.animateZoom(this)
-
-        }
+//        btn_next_in_sign_up.setOnClickListener {
+//            startActivity(Intent(this, DirectSelectorActivity::class.java))
+//            Animatoo.animateZoom(this)
+//
+//        }
 
     }
+
 }

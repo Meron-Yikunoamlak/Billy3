@@ -11,7 +11,7 @@
     <string name="login">Login</string>
     <string name="no_account_yet">No account yet?</string>
     <string name="create_one">Create one</string>
-    <string name="hello_there_welcome_back">HELLO THERE WELCOME BACK</string>
+    <string name="hello_there_welcome_back">HELLO THERE\n WELCOME BACK</string>
     <string name="welcome">Welcome</string>
     <string name="full_name">Full Name</string>
     <string name="o">+251</string>
@@ -22,4 +22,16 @@
     <string name="next">Next</string>
     <string name="cancel">Cancel</string>
     <string name="user_account_type">User Account Type</string>
+    <string name="select_which_contact_detail_should_we_use_to_reset_you_password">Select which contact detail should we use to reset you password?</string>
+    <string name="selection">selection</string>
+    <string name="make">make</string>
+    <string name="via_sms">via sms:</string>
+    <string name="_251965149323">+251965149323</string>
+    <string name="meronyikunoamlak1_gmail_com">meronyikunoamlak1@gmail.com</string>
+    <string name="via_email">via email:</string>
+    <string name="make_selection">make\nselection</string>
+    <string name="verification">verification</string>
+    <string name="enter_one_time_password_sent_on">Enter the one time password sent on</string>
+    <string name="code">code</string>
+    <string name="verify_code">verify code</string>
 </resources>
