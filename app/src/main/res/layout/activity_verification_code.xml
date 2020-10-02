@@ -67,7 +67,6 @@
             android:includeFontPadding="false"
             android:text="@string/enter_one_time_password_sent_on"
             android:textAlignment="center"
-            android:fontFamily="@font/muli_extralight"
             android:textSize="16sp" />
 
         <TextView

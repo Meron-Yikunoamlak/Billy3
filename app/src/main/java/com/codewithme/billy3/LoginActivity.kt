@@ -3,6 +3,7 @@ package com.codewithme.billy3
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.blogspot.atifsoftwares.animatoolib.Animatoo
 import kotlinx.android.synthetic.main.activity_login.*
 
@@ -21,6 +22,11 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this, ForgotPasswordActivity::class.java))
             Animatoo.animateZoom(this)
 
+        }
+
+        button_login.setOnClickListener {
+            startActivity(Intent(this, DashBoaredActivity::class.java))
+                    Animatoo.animateZoom(this)
         }
 
     }

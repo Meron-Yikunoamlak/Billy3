@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/wallet"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+        android:title="@string/wallet"
+        app:cnb_iconColor="@color/colorPrimaryDark"/>
+
+
+    <item
+        android:id="@+id/receipt"
+        android:icon="@drawable/ic_baseline_receipt_24"
+        android:title="@string/receipt"
+        app:cnb_iconColor="@color/colorPrimaryDark" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_profile_24"
+        android:title="@string/profile"
+        app:cnb_iconColor="@color/colorPrimaryDark" />
+
+</menu>

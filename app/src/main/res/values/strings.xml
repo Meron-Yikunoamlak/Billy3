@@ -34,4 +34,9 @@
     <string name="enter_one_time_password_sent_on">Enter the one time password sent on</string>
     <string name="code">code</string>
     <string name="verify_code">verify code</string>
+    <string name="profile">Profile</string>
+    <string name="receipt">Receipt</string>
+    <string name="wallet">Wallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
