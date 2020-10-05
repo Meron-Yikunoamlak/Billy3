@@ -1,13 +1,301 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="wallet fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-</FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/back_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="15dp"
+            android:src="@drawable/ic_baseline_search_24" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wallets"
+            android:textSize="20dp"
+            android:textColor="@color/colorTextSecondary"
+            android:fontFamily="@font/bungee"
+            android:textAllCaps="true"
+            android:padding="4dp"/>
+
+
+            <RelativeLayout
+                android:id="@+id/mbirr_container"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:elevation="8dp"
+                android:background="@drawable/mbirr_background">
+
+
+                <TextView
+                    android:id="@+id/mbirr_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/muli_extrabold"
+                    android:text="Mbirr"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/mbirr_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mbirr_title"
+                    android:layout_marginStart="20dp"
+                    android:text="use Mbirr Electronic payment"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mbirr_title" />
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/mbirr2"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="20dp"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/amole_wallet_background">
+
+
+                <TextView
+                    android:id="@+id/amole_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/muli_extrabold"
+                    android:text="Amole"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentEnd="true"/>
+
+
+                <TextView
+                    android:id="@+id/amole_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/amole_title"
+                    android:text="use Dashen Bank's Wallet"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"/>
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/amole2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentStart="true"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/anbesa_wallet_background">
+
+
+                <TextView
+                    android:id="@+id/anbesa_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/muli_extrabold"
+                    android:text="HeloCash"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true"/>
+
+
+                <TextView
+                    android:id="@+id/anbesa_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/anbesa_title"
+                    android:text="use Anbesa's bank Wallet"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true"/>
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/anbesa"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentRight="true"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/cbe_wallet_background"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:id="@+id/cbe_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/muli_extrabold"
+                    android:text="CBE birr"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cbe_title"
+                    android:layout_marginStart="20dp"
+                    android:text="use Commercial Bank Of Ethiopia's Wallet"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cbe_title" />
+
+
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="110dp"
+                android:src="@drawable/logo"
+                android:layout_alignParentEnd="true"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/wegagen_wallet_background">
+
+
+            <TextView
+                android:id="@+id/wegagen_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/muli_extrabold"
+                android:text="Wogagen"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentEnd="true"/>
+
+
+            <TextView
+                android:id="@+id/wegagen_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wegagen_title"
+                android:text="use Woggagen Bank's Wallet"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="100dp"
+                android:layout_alignParentRight="true"/>
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="70dp"
+                android:src="@drawable/wegagen"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentStart="true"
+                />
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

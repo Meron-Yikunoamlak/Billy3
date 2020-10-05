@@ -14,6 +14,14 @@
     <color name="black">#000000</color>
 
     <color name="blank">#696969</color>
+    <color name="cbeStart">#C4660198</color>
+    <color name="cbeEnd">#D488FA</color>
+    <color name="amoleStart">#F3CB01</color>
+    <color name="amoleEnd">#BCFDEA88</color>
+    <color name="mbirrstart">#9E007E34</color>
+    <color name="anbesaStart">#CD1E5C38</color>
+    <color name="weganEnd">#FFAB00</color>
+    <color name="weganStart">#302001</color>
 
     <color name="home">#2196F3</color>
     <color name="wallet">#673AB7</color>
